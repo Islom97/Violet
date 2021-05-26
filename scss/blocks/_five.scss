@@ -1,0 +1,92 @@
+.five {
+     position: relative;
+     background-color: #C2AEE2;    
+     background-image: url(../img/five.svg);
+     background-repeat: no-repeat;
+     background-position: 0 76px;
+     height: 1800px;
+     &::before{  
+          content: '';
+          position: absolute;
+          right: 150px;
+          background-image: url(../img/bezak.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 236px;
+          height: 283px;     
+     }
+     &::after{  
+          content: '';
+          position: absolute;
+          right: 150px;
+          top: 714px;
+          width: 333px;
+          height: 333px;
+          background-color: #FF6C46;
+          border-radius: 50%;
+          
+     }
+     
+     .problem {
+          
+          &__title {
+               font-size: 64px;
+               line-height: 62px;
+               letter-spacing: 0.3px;
+               margin: 0;
+               margin-left: 700px;
+               padding-top: 373px;
+          }
+          
+          &__text {
+               width: 430px;
+               font-size: 20px;
+               line-height: 29px;
+               letter-spacing: 0.3px;
+               margin: 0;
+               margin-top: 35px;
+               margin-left: 700px;
+          }
+     }
+     .solution {
+          position: relative;
+          &::before{
+               content: '';
+               position: absolute;
+               background-image: url(../img/human.svg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               top: 220px;
+               right: -49px;
+               width: 943px;
+               height: 600px;
+          }
+          &::after{
+               content: '';
+               background-image: url(../img/bezak-2.svg);
+               background-repeat: no-repeat;
+               width: 257px;
+               height: 130px;
+               position: absolute;
+               top: 70px;
+               right: 0;
+          }
+          
+          &__title {
+               font-size: 65px;
+               line-height: 62px;
+               letter-spacing: 0.3px;
+               margin: 0;
+               margin-top: 431px;
+               margin-bottom: 35px;
+          }
+          
+          &__text {
+               line-height: 29px;
+               letter-spacing: 0.3px;
+               width: 540px;
+               margin: 0;
+          }
+     }
+     
+}

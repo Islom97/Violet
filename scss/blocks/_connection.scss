@@ -1,0 +1,103 @@
+.connection{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 273px;
+	&__title{
+		width: 488px;
+		font-size: 65px;
+		line-height: 62px;
+		letter-spacing: 0.3px; 	
+		color: #E6DEE7;
+	}
+	.form{
+		width: 562px;
+		padding: 33px 40px 40px;
+		background-color: #07605A;
+		
+		&__title{
+			font-size: 39px;
+			line-height: 40px;
+			letter-spacing: 0.3px;
+			color: #E6DEE7;
+			margin-bottom: 42px;
+		}
+		
+		&__name{
+			display: flex;
+			margin-bottom: 15px;
+			
+			.first-name{
+				width: 277px;
+				margin-right: 8px;
+			}
+			.last-name{
+				width: 277px;
+			}
+			
+			.name__input{
+				width: 100%;
+				color: #fff;
+				background-color: transparent;
+				border: none;
+				border-bottom: 2px solid #D3CFE3;
+				outline: none;
+				padding: 10px;
+			}
+		}
+		.label{
+			color: #E6DEE7;
+			display: block;
+		}
+		
+		&__reference{
+			display: flex;
+			margin-bottom: 15px;
+			
+			.reference__org{
+				width: 277px;
+				margin-right: 8px;
+			}
+			.reference__job{
+				width: 277px;
+			}
+			
+			.name__input{
+				width: 100%;
+				color: #fff;
+				background-color: transparent;
+				border: none;
+				border-bottom: 2px solid #D3CFE3;
+				outline: none;
+				padding: 10px;
+			}
+		}
+		
+		&__email{
+			margin-bottom: 40px;
+			.email__input{
+				color: #fff;
+				background-color: transparent;
+				border: none;
+				border-bottom: 2px solid #D3CFE3;
+				outline: none;
+				padding: 10px;
+				width: 100%;
+			}
+		}
+		
+		&__btn{
+			cursor: pointer;
+			border: none;
+			background-color: #E03FFF;
+			padding: 12px 40px;
+			color: #fff;
+			transition: .4s ease all;
+			&:hover{
+				opacity: .8;
+			}
+		}
+	}
+	
+}
+

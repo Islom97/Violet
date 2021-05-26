@@ -1,0 +1,38 @@
+.growth {
+   position: relative;
+   background-image: url(../../img/hamshira.svg);
+   background-repeat: no-repeat;
+   background-size: 532px;
+   background-position: 0 20px;
+   padding-bottom: 360px;
+
+   &::before{
+      content: '';
+      position: absolute;
+      width: 303px;
+      height: 303px;
+      border-radius: 50%;
+      background-color: #64D0FF;
+      bottom: 0;
+   }
+
+   &__title {
+      width: 329px;
+      font-size: 65px;
+      line-height: 65px;
+      letter-spacing: 0.3px;
+      color: #E6DEE7;
+      margin-bottom: 32px;
+      margin-left: 647px;
+      padding-top: 146px;
+   }
+   
+   &__text {
+      width: 452px;
+      line-height: 29px;
+      color: #E6DEE7;
+      letter-spacing: 0.3px;
+      margin-left: 647px;
+      padding-bottom: 156px;
+   }
+}

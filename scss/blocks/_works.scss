@@ -1,0 +1,51 @@
+.works {
+     position: relative;
+     background-color: #127B75;
+     padding-bottom: 300px;
+     &__title {
+          text-align: center;
+          letter-spacing: 0.5px;
+          font-size: 82px;
+          line-height: 85px;
+          color: #E6DEE7;
+          margin: 0;
+          padding-top: 124px;
+     }
+     .benchmarking {
+          position: relative;
+          background-color: #F6B60D;
+          background-image: url(../img/kubic.svg);
+          background-repeat: no-repeat;
+          background-position: left;
+          margin-top: 156px;
+          padding: 193px 213px 203px 670px;
+          
+          &::before{
+               content: '';
+               position: absolute;
+               background-image: url(../img/em7j5n2f9rbg2.svg);
+               background-repeat: no-repeat;
+               width: 680px;
+               height: 250px;
+               top: -20%;
+               right: 70px;
+          }
+          
+          &__title {
+               font-size: 65px;
+               line-height: 65px;
+               letter-spacing: 0.3px;
+               margin: 0;
+               margin-bottom: 32px;
+          }
+          
+          &__text {
+               width: 457px;
+               line-height: 29px;
+               letter-spacing: 0.3px;
+               margin: 0;
+          }
+     }
+     @import './_growth';
+     @import './_platform';
+}

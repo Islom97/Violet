@@ -1,0 +1,46 @@
+.badging {
+     position: relative;
+     background-color: #E03FFF;
+     background-image: url(../img/bipoc.svg);
+     background-repeat: no-repeat;
+     background-position: 654px 44px;
+     padding: 150px 805px 159px 70px;
+
+     &::before{
+          content: '';
+          position: absolute;
+          background-image: url(../img/lgbc.svg);
+          background-repeat: no-repeat;
+          width: 205px;
+          height: 205px;
+          top: 301px;
+          left: 697px;
+     }
+     &::after{
+          content: '';
+          position: absolute;
+          background-image: url(../img/tgnc.svg);
+          background-repeat: no-repeat;
+          width: 300px;
+          height: 300px;
+          top: 152px;
+          left: 920px;
+     }
+
+     &__title {
+          font-size: 64px;
+          line-height: 65px;
+          letter-spacing: 0.3px;
+          color: #E6DEE7;
+          margin: 0;
+          margin-bottom: 32px;
+     }
+     
+     &__text {
+          width: 465px;
+          line-height: 29px;
+          letter-spacing: 0.3px;
+          color: #E6DEE7;
+          margin: 0;
+     }
+}

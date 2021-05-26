@@ -1,0 +1,27 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     color: #1C182A;
+}
+.container{
+     width: 1250px;
+     margin: 0 auto;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #fff;
+}
+@import './_generator';

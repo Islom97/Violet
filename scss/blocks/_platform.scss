@@ -1,0 +1,36 @@
+.platform {
+   position: relative;
+   &::before{
+      content: '';
+      width: 720px;
+      height: 749px;
+      top: -70%;
+      right: 0;
+      position: absolute;
+      background-image: url(../../img/platform.png);
+      background-repeat: no-repeat;
+      // background-size: contain;
+      background-position: right;
+
+   }
+   
+   &__title {
+      width: 489px;
+      font-size: 65px;
+      line-height: 62px;
+      color: #E6DEE7;
+      letter-spacing: 0.3px;
+      padding-top: 50px;
+      margin: 0;
+      margin-bottom: 14px;
+   }
+   
+   &__text {
+      width: 448px;
+      line-height: 29px;
+      letter-spacing: 0.3px;
+      color: #E6DEE7;
+      margin: 0;
+      padding-bottom: 50px;
+   }
+}
